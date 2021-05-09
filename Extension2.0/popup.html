@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="popup.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body class="body">
+<div class="container">
+    <form method="post" action="" id="form">
+      <button type="button" class="btn" id="loadbtn" >load values</button>
+      <br><br>
+        <table class="Table">
+            <tr id="header">
+                <th style="padding: 10px" >Required Fields</th>
+                <th class="extracted" hidden>Extracted Value</th>
+                <th>Updated Value</th>
+
+            </tr>
+
+
+            <tr>
+                <td>Requestor:</td>
+                <td class="extracted" id="requestor" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="requestor-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Request Amount</td>
+                <td class="extracted" id="request-amount" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="request-amount-updated" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td>Funded By:</td>
+                <td class="extracted" id="funded-by"  hidden></td>
+                <td class="input"><input placeholder="Type to update" id="funded-by-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Fund Type</td>
+                <td class="extracted" id="fund-type" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="fund-type-updated" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td>Amount:</td>
+                <td class="extracted" id="amount" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="amount-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Cost Center</td>
+                <td class="extracted" id="cost-center" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="cost-center-updated" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td>Opex/Clarity ID</td>
+                <td class="extracted" id="opex-id" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="opex-id-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Product Order Number</td>
+                <td class="extracted" id="PON" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="PON-updated" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td>OCIO Service Line:</td>
+                <td class="extracted" id="service-line" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="service-line-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Procurement Specialist</td>
+                <td class="extracted" id="procure-spec" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="procure-spec-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Expense Account</td>
+                <td class="extracted" id="exp-accnt" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="exp-accnt-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Approved Vendor</td>
+                <td class="extracted" id="approved-vendor" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="approved-vendor-updated" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Vendor Company Name</td>
+                <td class="extracted" id="vendr-comp-name" hidden></td>
+                <td class="input"><input placeholder="Type to update" id="vendr-comp-name-updated" type="text"></td>
+            </tr>
+
+
+
+
+        </table>
+        <br>
+        <button type="submit" class="btn" >SUBMIT</button>
+
+    </form>
+</div>
+
+</body>
+</html>
